@@ -1,4 +1,4 @@
 name: A Dartpad exercise with repositories
-mode: inline
+mode: dart
 files:
   - name: main.dart
