@@ -9,4 +9,5 @@
 2. Создать подпапку с порядковым номером гиста
 3. В ней нужно добавить файл dartpad_metadata.yaml, про его структуру можно почитать тут - https://github.com/dart-lang/dart-pad/wiki/Workshop-Authoring-Guide#metadata-file-format
 4. Создать main.dart файл и написать там код
-5. Собрать embeded-link по примеру: https://dartpad.dev/embed-flutter.html?gh_owner=yndx-handbook&gh_repo=flutter-handbook&gh_path={путь до dartpad_metadata.yaml}
+5. Запушить в репозиторий
+6. Собрать embeded-link по примеру: https://dartpad.dev/embed-flutter.html?gh_owner=yndx-handbook&gh_repo=flutter-handbook&gh_path={путь до dartpad_metadata.yaml}
