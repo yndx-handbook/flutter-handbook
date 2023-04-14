@@ -1,0 +1,5 @@
+name: Var keyword
+mode: dart
+files:
+  - name: main.dart
+

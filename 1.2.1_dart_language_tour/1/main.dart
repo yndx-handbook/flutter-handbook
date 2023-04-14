@@ -1,5 +1,4 @@
-void main() async {
-  final list = [1, 2, 3];
-  list.add(5);
-  print(list);
+void main() {
+  String helloString = "Hello, world!";
+  print(helloString);
 }
