@@ -1,5 +1,5 @@
 name: A Dartpad exercise with repositories
 mode: dart
 files:
-  - name: main.dart
-
+  - name: any/any_file.dart
+  - name: 1/main.dart
