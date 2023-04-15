@@ -1,0 +1,5 @@
+name: const keyword
+mode: dart
+files:
+  - name: main.dart
+
