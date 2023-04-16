@@ -1,5 +1,3 @@
-part 'part.dart';
-
 void main() {
   const a = 5;
   A()._foo();
