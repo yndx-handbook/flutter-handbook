@@ -11,3 +11,4 @@
 4. Создать main.dart файл и написать там код
 5. Запушить в репозиторий
 6. Собрать embeded-link по примеру: https://dartpad.dev/embed-flutter.html?gh_owner=yndx-handbook&gh_repo=flutter-handbook&gh_path={путь до dartpad_metadata.yaml}
+
