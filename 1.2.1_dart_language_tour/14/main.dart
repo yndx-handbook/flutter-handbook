@@ -1,9 +1,9 @@
 void main() {
-  // Пусть у нас будет List, с nullable элементами
-  final myList = <MyClass?>[MyClass()];
+  // Пусть у нас будет переменная, которая может содержать null
+  MyClass? myClass;
 
   // Получаем ошибку на этапе компиляции
-  final value = myList.first.foo();
+  final value = myClass.foo();
 }
 
 class MyClass {
