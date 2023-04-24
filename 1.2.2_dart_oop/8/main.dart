@@ -25,6 +25,7 @@ abstract class MyAbstractClass {
 
 class MyClass extends MyAbstractClass {
   MyClass(super.someValue);
+  // Или MyClass(String someValue):super(someValue); - это эквивалентные записи
 
   @override
   void bar() {
