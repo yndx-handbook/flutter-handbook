@@ -1,0 +1,23 @@
+{
+  "appTitle": "Flutter i18n Demo",
+  "@appTitle": {
+    "description": "AppBar title"
+  },
+  "pushCount": "You have earned {count, plural, =0{no cookies} =1{{count} cookie} many{{count} cookies} other{{count} cookies}} ({date})",
+  "@pushCount": {
+    "description": "How many times the button has been pushed in order to earn more cookies",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      },
+      "count": {
+        "type": "int",
+        "example": "1"
+      },
+      "style": {
+        "type": "String"
+      }
+    }
+  }
+}
