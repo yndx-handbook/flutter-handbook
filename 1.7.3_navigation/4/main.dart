@@ -45,10 +45,10 @@ class _PageAState extends State<PageA> {
             TextButton(
               child: const Text('Edit name'),
               onPressed: () async { // Используем ключевое слово async
-                final result = await Navigator.pushNamed<String?>(context, '/B', arguments: _name);
+                final result = await Navigator.pushNamed(context, '/B', arguments: _name);
                 if (result != null) {
                   setState(() {
-                    _name = result;
+                    _name = result as String;
                   });
                 }
               },
