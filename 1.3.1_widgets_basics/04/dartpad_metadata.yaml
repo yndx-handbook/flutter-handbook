@@ -1,0 +1,4 @@
+name: Separate StatelessWidget for decoration
+type: flutter
+files:
+  - name: main.dart

@@ -1,0 +1,4 @@
+name: Widgets Hello World
+type: flutter
+files:
+  - name: main.dart
