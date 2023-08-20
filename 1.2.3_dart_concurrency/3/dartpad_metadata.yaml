@@ -1,0 +1,5 @@
+name: Неблокирующий async
+mode: dart
+files:
+  - name: main.dart
+
