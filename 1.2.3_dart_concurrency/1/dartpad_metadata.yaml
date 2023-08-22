@@ -1,5 +1,0 @@
-name: Catch ошибок Future
-mode: dart
-files:
-  - name: main.dart
-

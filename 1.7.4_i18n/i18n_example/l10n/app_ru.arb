@@ -1,4 +1,0 @@
-{
-  "appTitle": "Flutter i18n Демо",
-  "pushCount": "{style, select, formal{Вы заработали} informal{Ты заработал} other{Вы заработали}} {count, plural, =0{ни одной печеньки} =1{{count} печеньку} few{{count} печеньки} many{{count} печенек} other{{count} печенек}} ({date})"
-}
