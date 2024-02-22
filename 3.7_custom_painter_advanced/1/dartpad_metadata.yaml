@@ -1,0 +1,5 @@
+name: Компас (пример трансформации Canvas)
+mode: dart
+files:
+  - name: main.dart
+

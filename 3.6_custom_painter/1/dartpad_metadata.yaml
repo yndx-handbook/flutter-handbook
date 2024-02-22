@@ -1,0 +1,5 @@
+name: Домик со сменой суток
+mode: dart
+files:
+  - name: main.dart
+
