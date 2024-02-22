@@ -1,0 +1,5 @@
+name: Flip example
+mode: dart
+files:
+  - name: main.dart
+

@@ -1,0 +1,5 @@
+name: onEnd example
+mode: dart
+files:
+  - name: main.dart
+

@@ -1,0 +1,5 @@
+name: Colors example
+mode: dart
+files:
+  - name: main.dart
+

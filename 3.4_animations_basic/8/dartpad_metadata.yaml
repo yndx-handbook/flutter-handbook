@@ -1,0 +1,5 @@
+name: Flip with text
+mode: dart
+files:
+  - name: main.dart
+

@@ -1,0 +1,5 @@
+name: Custom Curve example
+mode: dart
+files:
+  - name: main.dart
+
