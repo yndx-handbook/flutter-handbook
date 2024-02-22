@@ -1,0 +1,5 @@
+name: Простейшая анимация
+mode: dart
+files:
+  - name: main.dart
+
