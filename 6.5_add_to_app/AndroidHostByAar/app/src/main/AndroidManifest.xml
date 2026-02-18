@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidHostByAar"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AndroidHostByAar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:theme="@style/Theme.AndroidHostByAarTransparent"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            />
+
+        <!-- Меню с примерами -->
+        <activity
+            android:name=".ExamplesMenuActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 1: Базовое создание FlutterEngine -->
+        <activity
+            android:name=".Example1_BasicEngineActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 2: Кэширование FlutterEngine -->
+        <activity
+            android:name=".Example2_EngineCacheActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 3: Управление жизненным циклом -->
+        <activity
+            android:name=".Example3_LifecycleManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+        
+        <activity
+            android:name=".CustomFlutterLifecycleActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar.AppCompat" />
+
+        <!-- Пример 4: FlutterEngineGroup -->
+        <activity
+            android:name=".Example4_FlutterEngineGroupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 5: Кастомная точка входа -->
+        <activity
+            android:name=".Example5_CustomEntrypointActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 6: FlutterActivity -->
+        <activity
+            android:name=".Example6_FlutterActivityExample"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+
+        <!-- Пример 7: FlutterFragment -->
+        <activity
+            android:name=".Example7_FlutterFragmentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar.AppCompat" />
+
+        <!-- Пример 8: FlutterView -->
+        <activity
+            android:name=".Example8_FlutterViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidHostByAar" />
+    </application>
+
+</manifest>
